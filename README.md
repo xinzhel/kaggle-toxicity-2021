@@ -1,3 +1,19 @@
+# Discussion
+validation_data  vs comments_to_score vs test data (LB)
+ 30k rows, pl is 10k
+
+
+cannot beat my first baseline run's LB score
+* more data
+* targeted pretraining
+8 folds and no leaks
+Baseline run with roberta-large: CV: 0.74 | LB: 0.815
+Pretrain with previous competition data: CV: 0.77 | LB: 0.7
+
+* heavier regularization
+* different loss functions
+* different learning rate schedules.
+
 # Past Solutions
 * 4 years ago
 1st: https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/discussion/52557
