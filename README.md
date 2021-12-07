@@ -1,6 +1,6 @@
 # Discussion
-validation_data  vs comments_to_score vs test data (LB)
- 30k rows, pl is 10k
+validation_data(30k rows)  vs comments_to_score vs test data (LB)
+pl is 10k
 
 
 cannot beat my first baseline run's LB score
@@ -54,6 +54,9 @@ https://www.kaggle.com/c/jigsaw-toxic-severity-rating/discussion/286333
 
 
 # Paper List
+[Ruddit: Norms of Offensiveness for English Reddit Comments](https://aclanthology.org/2021.acl-long.210/):
+dataset that involved tuples of four sentences that were marked with best-worst scoring
+
 Detecting and Classifying Toxic comments
 https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1184/reports/6837517.pdf
 
